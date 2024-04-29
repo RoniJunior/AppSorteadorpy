@@ -1,0 +1,23 @@
+<Tela@MDFloatLayout>
+    MDTextField:
+        size_hint_x: .5
+        size_hint_y: .1
+        pos_hint: {"x": .2,"y": .5}
+        hint_text: "Digite os elementos separados por vírgula"
+        id: lista
+    MDRaisedButton:
+        size_hint_x: .5
+        size_hint_y: .1 
+        pos_hint: {"x": .2,"y": .4} 
+        text: "sortear"
+        on_press: root.sortearLista()
+    MDLabel:
+        size_hint_x: .5
+        size_hint_y: .1 
+        pos_hint: {"x": .2,"y": .2}
+        text: "Nenhuma informação do sorteio"
+        id: lb
+        font_size: '12sp'
+
+Tela
+
